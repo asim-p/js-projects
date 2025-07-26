@@ -1,0 +1,18 @@
+div{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border: 30px solid black;
+    border-top: 30px solid yellow;
+    animation:myAnimation 2s ease-in 0s infinite alternate;
+    
+}
+
+@keyframes myAnimation {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
